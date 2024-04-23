@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Establecer la imagen como fondo de pantalla -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://avatars.mds.yandex.net/get-games/1892995/2a000001833830f46e62f8bd09905ed1487b/orig');
+            background-size: cover;
+            background-position: center bottom; /* Posiciona la imagen en el centro y hacia abajo */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Establece la altura del cuerpo al 100% del viewport */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; /* Alinea el contenido hacia abajo */
+        }
+        
+        /* Estilos adicionales */
+        /* Puedes agregar aquí cualquier estilo adicional que desees mantener */
+    </style>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Contenido de la página -->
+    <div style="background-color: rgba(255, 255, 255, 0.5); padding: 20px;">
+        <h1>ADIVINA LA PALABRA</h1>
+        <input type="text" id="guess-input" placeholder="Escribe tu respuesta aquí">
+        <button id="guess-button">Intentar</button>
+        <div id="grid"></div>
+        <p id="guesses"></p>
+    </div>
+</body>
+
+</html>

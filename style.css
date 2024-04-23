@@ -1,0 +1,77 @@
+/* Estilos más estéticos y divertidos */
+
+/* Resetear márgenes y padding */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el encabezado */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px; /* Aumentar el tamaño del texto para mayor impacto */
+  text-transform: uppercase;
+  color: black; /* Cambiando a un color más vibrante */
+}
+
+/* Estilo para el campo de entrada */
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 15px; /* Aumentar el tamaño del padding para mayor comodidad */
+  font-size: 24px; /* Incrementar el tamaño del texto */
+  width: 300px; /* Ajustar el ancho del campo de entrada */
+  border: 2px solid #0CBABA; /* Usar el mismo color vibrante para el borde */
+  border-radius: 10px; /* Bordes más redondeados */
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#guess-input:focus {
+  border-color: #08A0A8; /* Cambio de color al enfocar */
+}
+
+/* Estilo para el botón */
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px; /* Aumentar el tamaño del padding para hacer el botón más llamativo */
+  font-size: 24px; /* Incrementar el tamaño del texto */
+  background-color: #08A0A8; /* Color más brillante para el botón */
+  color: #fff;
+  border: none;
+  border-radius: 10px; /* Bordes más redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#guess-button:hover {
+  background-color: #0CBABA; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo para las letras */
+.letter {
+  border: 3px solid #0CBABA; /* Borde más grueso y color vibrante */
+  padding: 12px; /* Aumentar el tamaño del padding */
+  margin: 12px;
+  min-width: 40px; /* Ajustar el tamaño mínimo de las letras */
+  text-align: center;
+  display: inline-block;
+  font-size: 28px; /* Aumentar el tamaño del texto */
+  border-radius: 50%; /* Bordes redondeados */
+}
+
+/* Estilo para las filas */
+.row {
+  margin-bottom: 30px; /* Mayor separación entre filas */
+}
+
+/* Estilo para el área de entrada */
+.input-area {
+  text-align: center;
+  margin-top: 50px; /* Aumentar el espacio en la parte superior */
+}
